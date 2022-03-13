@@ -12,7 +12,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: 'command help menu'}, (as
 
     var r_text = new Array ();
     
-    r_text[0] = Config.LG_LOGO
+    r_text[0] = Config.LOGOSK
     
     var i = Math.floor(1*Math.random())
 
@@ -21,21 +21,21 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: 'command help menu'}, (as
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, contextInfo: {mentionedJid: message.mention}, caption: `
    ` + config.LOGO_NAME + `
 
-*Oᴡɴᴇʀ Nᴜᴍʙᴇʀ* :https://wa.me/` + config.PHONE + `*            
+*Oᴡɴᴇʀ Nᴜᴍʙᴇʀ* :https://wa.me/` + config.NBSK + `*            
 
 
 *Wʜᴀᴛsᴀᴘᴘ Gʀᴏᴜᴘ* :` + config.GROUP + `*
 
 
-*Gɪᴛ Lɪɴᴋs* : https://github.com/Afx-Abu/Luzi-Mwol*
+*Gɪᴛ Lɪɴᴋs* : https://github.com/Afx-Abu/Sana-Mwol*
 
 
-*Aᴜᴅɪᴏ ᴄᴏᴍᴍᴀɴᴅs* :https://github.com/Afx-Abu/Abu-media/tree/main/bgm*
+*Aᴜᴅɪᴏ ᴄᴏᴍᴍᴀɴᴅs* :https://github.com/Afx-Abu/media/tree/main/bgm*
 
 
-*sᴛɪᴄᴋᴇʀ ᴄᴏᴍᴍᴀɴᴅs* :https://github.com/Afx-Abu/Abu-media/tree/main/stickers*
+*sᴛɪᴄᴋᴇʀ ᴄᴏᴍᴍᴀɴᴅs* :https://github.com/Afx-Abu/media/tree/main/stickers*
 
-*ᴛʜɪs ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ` + config.OA_NAME + `*
+*ᴛʜɪs ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ` + config.PLK + `*
 
 `}) 
 
